@@ -1,0 +1,12 @@
+uuid: 43bbcb57-a0d0-4c1b-beba-57f8722b1521
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - no-reply@local.acme.com
+reply: ''
+weight: 0
