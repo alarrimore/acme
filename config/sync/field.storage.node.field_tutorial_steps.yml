@@ -1,0 +1,21 @@
+uuid: 1c3ba3b0-6116-4881-9a9a-22674e7f6f75
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_tutorial_steps
+field_name: field_tutorial_steps
+entity_type: node
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

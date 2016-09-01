@@ -1,0 +1,21 @@
+uuid: 3d10c40f-046b-4eb3-a266-ce3f6b8a1b0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_device_name
+    - node.type.tutorials_
+  module:
+    - text
+id: node.tutorials_.field_device_name
+field_name: field_device_name
+entity_type: node
+bundle: tutorials_
+label: device_name
+description: 'Add a name for the device'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

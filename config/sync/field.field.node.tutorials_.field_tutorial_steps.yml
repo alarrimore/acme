@@ -1,0 +1,21 @@
+uuid: fafc833e-3241-4388-be48-32975ae54620
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tutorial_steps
+    - node.type.tutorials_
+  module:
+    - options
+id: node.tutorials_.field_tutorial_steps
+field_name: field_tutorial_steps
+entity_type: node
+bundle: tutorials_
+label: tutorial_steps
+description: 'Add steps for tutorials'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
