@@ -1,0 +1,38 @@
+uuid: d975fa43-1642-438e-af0b-75906d8ce577
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_anvil_image
+    - node.type.anvil
+  module:
+    - image
+id: node.anvil.field_anvil_image
+field_name: field_anvil_image
+entity_type: node
+bundle: anvil
+label: 'Anvil Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: b33d2192-3bac-4dc5-89d6-42aef59863c2
+    alt: 'Acme''s basic anvil product'
+    title: ''
+    width: 275
+    height: 194
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

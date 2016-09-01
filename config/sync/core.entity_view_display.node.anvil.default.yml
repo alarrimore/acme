@@ -1,0 +1,41 @@
+uuid: 4aeeec39-9fa8-4a10-9310-23f48aef794a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.anvil.body
+    - field.field.node.anvil.field_anvil_image
+    - field.field.node.anvil.field_weight
+    - node.type.anvil
+  module:
+    - image
+    - text
+    - user
+id: node.anvil.default
+targetEntityType: node
+bundle: anvil
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_anvil_image:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_weight:
+    weight: 1
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  links: true

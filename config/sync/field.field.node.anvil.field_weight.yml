@@ -1,0 +1,19 @@
+uuid: 4399dba8-5582-4913-9bd9-364625ebd47e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_weight
+    - node.type.anvil
+id: node.anvil.field_weight
+field_name: field_weight
+entity_type: node
+bundle: anvil
+label: Weight
+description: 'Add the weight of this model anvil'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

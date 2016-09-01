@@ -1,0 +1,68 @@
+uuid: 9be3fdd6-031f-46e9-b60c-fb5f6c47ab8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.anvil.body
+    - field.field.node.anvil.field_anvil_image
+    - field.field.node.anvil.field_weight
+    - image.style.thumbnail
+    - node.type.anvil
+  module:
+    - image
+    - path
+    - text
+id: node.anvil.default
+targetEntityType: node
+bundle: anvil
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 31
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  field_anvil_image:
+    weight: 33
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  field_weight:
+    weight: 32
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true
