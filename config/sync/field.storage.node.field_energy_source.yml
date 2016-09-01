@@ -1,0 +1,27 @@
+uuid: f29ec99f-a154-462a-a03b-8cbc924905b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_energy_source
+field_name: field_energy_source
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: gas
+      label: Gas
+    -
+      value: electric
+      label: Electric
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

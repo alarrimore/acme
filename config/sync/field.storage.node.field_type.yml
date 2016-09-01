@@ -1,0 +1,60 @@
+uuid: ef47026c-349e-4297-8e06-c29f7533171d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_type
+field_name: field_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Choose equipment type'
+      label: 'Choose equipment type'
+    -
+      value: aerial
+      label: Aerial
+    -
+      value: air_compressors
+      label: 'Air Compressors & Tools'
+    -
+      value: climate_control
+      label: 'Climate Control'
+    -
+      value: compaction
+      label: 'Compaction & Paving'
+    -
+      value: masonry
+      label: 'Concrete & Masonry'
+    -
+      value: earthmoving
+      label: Earthmoving
+    -
+      value: floor_care
+      label: 'Floor Care & Surface Prep'
+    -
+      value: material_handling
+      label: 'Material Handling'
+    -
+      value: power_generaion
+      label: 'Power Generation'
+    -
+      value: ProContractor
+      label: ProContractor
+    -
+      value: Pump
+      label: Pump
+    -
+      value: 'Trucks & Trailers'
+      label: 'Trucks & Trailers'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
