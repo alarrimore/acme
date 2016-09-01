@@ -1,0 +1,22 @@
+uuid: d55245a5-0d26-4bca-b03b-d1907a0786e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.trap
+  module:
+    - text
+id: node.trap.body
+field_name: body
+entity_type: node
+bundle: trap
+label: 'Trap Description'
+description: 'Explain the how the trap is intended to work.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

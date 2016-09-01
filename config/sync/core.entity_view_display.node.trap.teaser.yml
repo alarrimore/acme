@@ -1,0 +1,30 @@
+uuid: cc33ae74-aa7a-4e42-8fba-f09526ebb97c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.trap.body
+    - field.field.node.trap.field_trap_image
+    - field.field.node.trap.field_trap_intended_prey
+    - node.type.trap
+  module:
+    - text
+    - user
+id: node.trap.teaser
+targetEntityType: node
+bundle: trap
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  field_trap_image: true
+  field_trap_intended_prey: true
