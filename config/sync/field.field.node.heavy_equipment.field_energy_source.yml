@@ -1,0 +1,21 @@
+uuid: 130c2bf2-6869-4386-8051-d36db206133b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_energy_source
+    - node.type.heavy_equipment
+  module:
+    - options
+id: node.heavy_equipment.field_energy_source
+field_name: field_energy_source
+entity_type: node
+bundle: heavy_equipment
+label: 'Energy Source'
+description: "gas|Gas\r\nelectric|Electric\r\n"
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

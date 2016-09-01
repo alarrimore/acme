@@ -1,0 +1,17 @@
+uuid: 6c04e4d0-f30f-472c-b91c-43e8ca5abf48
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Heavy Equipment'
+type: heavy_equipment
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,79 @@
+uuid: f9bb9338-e4c2-4a09-9204-abf7a7b1ffcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.heavy_equipment.body
+    - field.field.node.heavy_equipment.field_depth
+    - field.field.node.heavy_equipment.field_energy_source
+    - field.field.node.heavy_equipment.field_height
+    - field.field.node.heavy_equipment.field_model
+    - field.field.node.heavy_equipment.field_type
+    - field.field.node.heavy_equipment.field_width
+    - node.type.heavy_equipment
+  module:
+    - options
+    - text
+    - user
+id: node.heavy_equipment.default
+targetEntityType: node
+bundle: heavy_equipment
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_depth:
+    weight: 106
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+  field_energy_source:
+    weight: 107
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  field_height:
+    weight: 105
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+  field_model:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_type:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  field_width:
+    weight: 104
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+  links:
+    weight: 100
+hidden: {  }

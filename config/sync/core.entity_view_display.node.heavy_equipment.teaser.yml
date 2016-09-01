@@ -1,0 +1,26 @@
+uuid: cb11bfd8-abf0-4efe-a78e-ddc729dd3c57
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.heavy_equipment.body
+    - node.type.heavy_equipment
+  module:
+    - text
+    - user
+id: node.heavy_equipment.teaser
+targetEntityType: node
+bundle: heavy_equipment
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

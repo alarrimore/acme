@@ -1,0 +1,18 @@
+uuid: aa6f5a00-2c98-4525-b265-b83b9045f125
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.heavy_equipment
+id: node.heavy_equipment.title
+field_name: title
+entity_type: node
+bundle: heavy_equipment
+label: 'Equipment Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

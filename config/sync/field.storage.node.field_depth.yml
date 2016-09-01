@@ -1,0 +1,18 @@
+uuid: 3ac62d68-f549-415a-8dd8-55356f7a9aab
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_depth
+field_name: field_depth
+entity_type: node
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
