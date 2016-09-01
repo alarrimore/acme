@@ -1,0 +1,24 @@
+uuid: 3d2c48ce-edad-4ffd-9d50-7d9f7a981e09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.doug01.body
+    - node.type.doug01
+  module:
+    - text
+    - user
+id: node.doug01.default
+targetEntityType: node
+bundle: doug01
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

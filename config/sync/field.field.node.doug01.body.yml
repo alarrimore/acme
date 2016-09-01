@@ -1,0 +1,22 @@
+uuid: 3beabff2-5611-44b8-bf08-906c67d7b12a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.doug01
+  module:
+    - text
+id: node.doug01.body
+field_name: body
+entity_type: node
+bundle: doug01
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
