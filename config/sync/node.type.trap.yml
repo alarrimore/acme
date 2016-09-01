@@ -1,0 +1,18 @@
+uuid: 6b13c6a9-25fc-4c08-bb31-dcd6fadee0da
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Trap
+type: trap
+description: 'All tools, weapons, and mechanical conveniences (must be obtained from the Acme Corporation) which can be used in Wile E.''s numerous failed attempts to catch Road Runner.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

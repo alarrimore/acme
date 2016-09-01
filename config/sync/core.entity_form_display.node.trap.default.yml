@@ -1,0 +1,68 @@
+uuid: 9bb17e96-4cf5-4f23-b569-84e9ea3c0b64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.trap.body
+    - field.field.node.trap.field_trap_image
+    - field.field.node.trap.field_trap_intended_prey
+    - image.style.thumbnail
+    - node.type.trap
+  module:
+    - image
+    - path
+    - text
+id: node.trap.default
+targetEntityType: node
+bundle: trap
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 1
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  field_trap_image:
+    weight: 3
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  field_trap_intended_prey:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+  path:
+    type: path
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 6
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 7
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

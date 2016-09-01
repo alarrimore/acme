@@ -1,0 +1,18 @@
+uuid: 55ad1881-3fc7-4506-8fa8-44b4ed5b7810
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.trap
+id: node.trap.title
+field_name: title
+entity_type: node
+bundle: trap
+label: 'Trap Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

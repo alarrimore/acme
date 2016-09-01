@@ -1,0 +1,21 @@
+uuid: 5b931a13-aff7-4b5d-8dad-505430576a3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_trap_intended_prey
+    - node.type.trap
+id: node.trap.field_trap_intended_prey
+field_name: field_trap_intended_prey
+entity_type: node
+bundle: trap
+label: 'Trap Intended Prey'
+description: 'This should always = Road Runner'
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Road Runner'
+default_value_callback: ''
+settings: {  }
+field_type: string_long
