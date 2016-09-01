@@ -1,0 +1,53 @@
+uuid: 82c74dab-b2e4-470f-b9ab-743126a3dc03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tutorials_.field_comments
+    - field.field.node.tutorials_.field_device_name
+    - field.field.node.tutorials_.field_tutorial_image
+    - field.field.node.tutorials_.field_tutorial_steps
+    - node.type.tutorials_
+  module:
+    - comment
+    - image
+    - options
+    - text
+    - user
+id: node.tutorials_.default
+targetEntityType: node
+bundle: tutorials_
+mode: default
+content:
+  field_comments:
+    weight: 105
+    label: above
+    settings:
+      pager_id: 0
+    third_party_settings: {  }
+    type: comment_default
+  field_device_name:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_tutorial_image:
+    weight: 103
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_tutorial_steps:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

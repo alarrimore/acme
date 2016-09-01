@@ -1,0 +1,17 @@
+uuid: e5be264b-5e16-4d09-97dc-6e513c4ace2e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Tutorials
+type: tutorials_
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false
