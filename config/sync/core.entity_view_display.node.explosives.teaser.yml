@@ -1,0 +1,26 @@
+uuid: 239aa3d0-82d5-44c1-b275-07eeed10e64a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.explosives.body
+    - node.type.explosives
+  module:
+    - text
+    - user
+id: node.explosives.teaser
+targetEntityType: node
+bundle: explosives
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

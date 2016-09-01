@@ -1,0 +1,24 @@
+uuid: 97143f4f-652f-4c8c-8657-90386752054c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.explosives.body
+    - node.type.explosives
+  module:
+    - text
+    - user
+id: node.explosives.default
+targetEntityType: node
+bundle: explosives
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

@@ -1,0 +1,22 @@
+uuid: 3a3e5c1e-accc-4a7a-8f19-e3881634d63b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.explosives
+  module:
+    - text
+id: node.explosives.body
+field_name: body
+entity_type: node
+bundle: explosives
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
