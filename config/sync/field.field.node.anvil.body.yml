@@ -1,0 +1,22 @@
+uuid: bcb33e07-9163-4f2b-8251-f93be911c866
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.anvil
+  module:
+    - text
+id: node.anvil.body
+field_name: body
+entity_type: node
+bundle: anvil
+label: Body
+description: 'Enter information about this product including a teaser summary of the product'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

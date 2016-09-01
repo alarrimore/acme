@@ -1,0 +1,18 @@
+uuid: 32afa5e7-d418-49af-a6ac-b066b40c9faf
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.anvil
+id: node.anvil.title
+field_name: title
+entity_type: node
+bundle: anvil
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
